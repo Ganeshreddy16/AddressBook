@@ -1,6 +1,6 @@
 package com.Blz.assignment;
 
-public class AddressBook {
+public class Contact {
     private String firstName, lastName, address, state, city, zip, phoneNumber, email;
 
     public String getFirstName() {
