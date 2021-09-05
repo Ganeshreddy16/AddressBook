@@ -3,13 +3,10 @@ package com.Blz.assignment;
 public class Contact {
     private String firstName, lastName, address, state, city, zip, phoneNumber, email;
 
-    public String getFirstName() {
-        return firstName;
-    }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
+    public String getFirstName() {return firstName;}
+
+    public void setFirstName(String firstName) {this.firstName = firstName;}
 
     public String getLastName() {
         return lastName;
@@ -64,6 +61,6 @@ public class Contact {
     }
 
     public void setEmail(String email) {
-        this.email = email;}
-
+        this.email = email;
+    }
 }
