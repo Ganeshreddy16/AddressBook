@@ -1,6 +1,6 @@
 package com.Blz.assignment;
 
-public class AddressBook {
+public class Contact {
     private String firstName, lastName, address, state, city, zip, phoneNumber, email;
 
     public String getFirstName() {
@@ -64,6 +64,6 @@ public class AddressBook {
     }
 
     public void setEmail(String email) {
-        this.email = email;
-    }
+        this.email = email;}
+
 }
